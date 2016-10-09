@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7224AEC81DAA91F30083E93A /* DepartmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224AEC71DAA91F30083E93A /* DepartmentsTableViewController.swift */; };
+		7224AECA1DAA920E0083E93A /* AddDepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224AEC91DAA920E0083E93A /* AddDepartmentViewController.swift */; };
+		7224AECC1DAA92440083E93A /* DepartmentEmployeesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224AECB1DAA92440083E93A /* DepartmentEmployeesTableViewController.swift */; };
+		7224AECE1DAA928E0083E93A /* EmployeesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224AECD1DAA928E0083E93A /* EmployeesTableViewController.swift */; };
+		7224AED01DAA92AA0083E93A /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224AECF1DAA92AA0083E93A /* AddEmployeeViewController.swift */; };
+		7224AED21DAA92C80083E93A /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7224AED11DAA92C80083E93A /* EmployeeTableViewCell.swift */; };
 		728F92E91DAA564600EA393E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F92E81DAA564600EA393E /* AppDelegate.swift */; };
-		728F92EB1DAA564600EA393E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F92EA1DAA564600EA393E /* ViewController.swift */; };
 		728F92EE1DAA564600EA393E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728F92EC1DAA564600EA393E /* Main.storyboard */; };
 		728F92F11DAA564600EA393E /* Departments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 728F92EF1DAA564600EA393E /* Departments.xcdatamodeld */; };
 		728F92F31DAA564600EA393E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728F92F21DAA564600EA393E /* Assets.xcassets */; };
@@ -16,9 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7224AEC71DAA91F30083E93A /* DepartmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentsTableViewController.swift; sourceTree = "<group>"; };
+		7224AEC91DAA920E0083E93A /* AddDepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDepartmentViewController.swift; sourceTree = "<group>"; };
+		7224AECB1DAA92440083E93A /* DepartmentEmployeesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentEmployeesTableViewController.swift; sourceTree = "<group>"; };
+		7224AECD1DAA928E0083E93A /* EmployeesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesTableViewController.swift; sourceTree = "<group>"; };
+		7224AECF1DAA92AA0083E93A /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
+		7224AED11DAA92C80083E93A /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 		728F92E51DAA564600EA393E /* Departments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Departments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728F92E81DAA564600EA393E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		728F92EA1DAA564600EA393E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		728F92ED1DAA564600EA393E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		728F92F01DAA564600EA393E /* Departments.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Departments.xcdatamodel; sourceTree = "<group>"; };
 		728F92F21DAA564600EA393E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +47,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7224AEC51DAA8E650083E93A /* DepartmentFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7224AEC71DAA91F30083E93A /* DepartmentsTableViewController.swift */,
+				7224AEC91DAA920E0083E93A /* AddDepartmentViewController.swift */,
+			);
+			name = DepartmentFiles;
+			sourceTree = "<group>";
+		};
+		7224AEC61DAA8E7C0083E93A /* EmployeeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7224AECB1DAA92440083E93A /* DepartmentEmployeesTableViewController.swift */,
+				7224AECD1DAA928E0083E93A /* EmployeesTableViewController.swift */,
+				7224AECF1DAA92AA0083E93A /* AddEmployeeViewController.swift */,
+				7224AED11DAA92C80083E93A /* EmployeeTableViewCell.swift */,
+			);
+			name = EmployeeFiles;
+			sourceTree = "<group>";
+		};
 		728F92DC1DAA564500EA393E = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +86,9 @@
 		728F92E71DAA564600EA393E /* Departments */ = {
 			isa = PBXGroup;
 			children = (
+				7224AEC61DAA8E7C0083E93A /* EmployeeFiles */,
+				7224AEC51DAA8E650083E93A /* DepartmentFiles */,
 				728F92E81DAA564600EA393E /* AppDelegate.swift */,
-				728F92EA1DAA564600EA393E /* ViewController.swift */,
 				728F92EC1DAA564600EA393E /* Main.storyboard */,
 				728F92F21DAA564600EA393E /* Assets.xcassets */,
 				728F92F41DAA564600EA393E /* LaunchScreen.storyboard */,
@@ -140,8 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728F92EB1DAA564600EA393E /* ViewController.swift in Sources */,
+				7224AECA1DAA920E0083E93A /* AddDepartmentViewController.swift in Sources */,
+				7224AED21DAA92C80083E93A /* EmployeeTableViewCell.swift in Sources */,
+				7224AED01DAA92AA0083E93A /* AddEmployeeViewController.swift in Sources */,
+				7224AEC81DAA91F30083E93A /* DepartmentsTableViewController.swift in Sources */,
 				728F92E91DAA564600EA393E /* AppDelegate.swift in Sources */,
+				7224AECE1DAA928E0083E93A /* EmployeesTableViewController.swift in Sources */,
+				7224AECC1DAA92440083E93A /* DepartmentEmployeesTableViewController.swift in Sources */,
 				728F92F11DAA564600EA393E /* Departments.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +342,7 @@
 				728F92FC1DAA564600EA393E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
